@@ -4,7 +4,8 @@
   "description": "Basic template from which I can clone and create new javascript templates",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/OriNachum/javascript-backend-service-base/issues"
   },
-  "homepage": "https://github.com/OriNachum/javascript-backend-service-base#readme"
+  "homepage": "https://github.com/OriNachum/javascript-backend-service-base#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
