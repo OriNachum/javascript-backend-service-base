@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "name": "javascript-backend-service-base",
+  "builds": [
+    {
+      "src": "src/index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "src/index.js"
+    }
+  ],
+  "engines": {
+    "node": "14.x"
+  }
+}
