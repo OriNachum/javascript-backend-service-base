@@ -3,9 +3,8 @@ Basic template from which I can clone and create new javascript templates
 
 ## Endpoints
 
-2 endpoints
-root - returns hello world
-/test - returns "works"
+1 endpoints
+/api - returns a dummy page with uuid
 
 over 90% of this code was created by ChatGPT
 
